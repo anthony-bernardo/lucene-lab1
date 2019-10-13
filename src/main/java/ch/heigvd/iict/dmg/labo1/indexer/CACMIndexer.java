@@ -55,9 +55,9 @@ public class CACMIndexer implements ParserListener {
 		// parameters. You job is to use the right Field and FieldType
 		// for these parameters.
 
-		Field idField = new LongPoint("id", id);
+//		Field idField = new LongPoint("id", id);
+		Field idField = new StoredField("id", id);
 		doc.add(idField);
-
 
 		Field authorsField = new StringField("authors", authors, Field.Store.YES);
 		doc.add(authorsField);

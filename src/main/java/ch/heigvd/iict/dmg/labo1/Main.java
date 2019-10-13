@@ -108,7 +108,7 @@ public class Main {
 //		} catch (IOException e) {
 //			e.printStackTrace();
 //		}
-//
+////
 //		return new StandardAnalyzer(); // TODO student.
 	}
 
